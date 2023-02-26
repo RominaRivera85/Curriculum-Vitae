@@ -1,0 +1,62 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    width: 90%;
+}
+
+section{
+    background-color: rgb(54, 77, 83);
+    color: rgb(255, 255, 255);
+}
+
+h1#nombrecompleto{
+    text-align: center;
+    color: beige;
+}
+
+
+h2#tituloprimario{
+    font-size: 110%;
+    text-align: center;
+    color: beige;
+}
+
+p{
+    text-align: justify;
+}
+
+a{
+    color: white;
+ }
+
+img#img{
+    width: 200px;
+    height: 200px;
+}
+
+div#img{
+    text-align: center;
+}
+
+div#one{
+    margin: 5%; 
+    padding-right: 5%;
+}
+
+h3#educacion, h3#experienciaprofesional, h3#habilidades{
+    margin-top: 5%
+}
+
+div#educacion, div#experienciaprofesional, div#habilidades{
+    margin-top: 5%
+}
+
+aside{
+    margin-left: 5%;
+}
