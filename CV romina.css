@@ -35,16 +35,16 @@ a{
     color: white;
  }
 
-img#img{
+img#imagen{
     width: 190px;
     height: 190px;
 }
 
-div#img{
+div#imagen{
     text-align: center;
 }
 
-div#one{
+div#uno{
     margin: 5%; 
     padding-right: 5%;
 }
