@@ -21,9 +21,9 @@
             function timeZone(){
                 let result ="";
                 result = Intl.DateTimeFormat().resolvedOptions().timeZone;
-                paragraph.textContent += result;
+                return result;
             }
-            timeZone();  
+            paragraph.textContent += timeZone();  
           </script>
 
         <div class="container">
