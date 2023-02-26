@@ -13,6 +13,19 @@
 
     <body>
 
+        <p id="location">Te estas conectador desde: </p>
+
+        <script>
+            var paragraph = document.getElementById("location");
+            
+            function timeZone(){
+                let result ="";
+                result = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                paragraph.textContent += result;
+            }
+            timeZone();  
+          </script>
+
         <div class="container">
             
             <div class="right">
