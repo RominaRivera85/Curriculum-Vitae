@@ -1,10 +1,6 @@
-body{
-    margin: 10px;
-}
-
 .container{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 3%;
+    margin-right: 3%;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     width: 90%;
@@ -35,18 +31,9 @@ a{
     color: white;
  }
 
-img#imagen{
-    width: 190px;
-    height: 190px;
-}
-
-div#imagen{
-    text-align: center;
-}
-
-div#uno{
-    margin: 5%; 
-    padding-right: 5%;
+#imagen{
+    width: 90%;
+    text-align: left;
 }
 
 h3#educacion, h3#experienciaprofesional, h3#habilidades{
@@ -59,4 +46,12 @@ div#educacion, div#experienciaprofesional, div#habilidades{
 
 aside{
     margin-left: 5%;
+}
+
+#divImagen{
+    text-align: center;
+}
+
+#divInfo{
+    margin:5%;
 }
