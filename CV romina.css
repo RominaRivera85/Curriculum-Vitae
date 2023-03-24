@@ -24,10 +24,6 @@ h2#tituloprimario{
     color: beige;
 }
 
-p{
-    text-align: justify;
-}
-
 a{
     color: white;
  }
@@ -55,5 +51,10 @@ aside{
 }
 
 #divInfo{
-    margin:5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#paragraph-body{
+    text-align: justify;
 }
