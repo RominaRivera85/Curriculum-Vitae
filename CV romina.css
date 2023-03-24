@@ -53,8 +53,9 @@ aside{
 #divInfo{
     padding-left: 5%;
     padding-right: 5%;
+    text-align: left;
 }
 
-#paragraph-body{
+.paragraph-body{
     text-align: justify;
 }
