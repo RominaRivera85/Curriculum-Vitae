@@ -59,3 +59,11 @@ aside{
 .paragraph-body{
     text-align: justify;
 }
+
+.loc{
+    text-align: left;
+    background-color: lightgray;
+    border-radius: 5%;
+    border: solid black;
+    padding: 0.25%;
+}
