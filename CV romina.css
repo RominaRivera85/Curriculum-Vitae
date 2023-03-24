@@ -9,6 +9,7 @@
 section{
     background-color: rgb(54, 77, 83);
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 h1#nombrecompleto{
@@ -49,6 +50,7 @@ aside{
 }
 
 #divImagen{
+    padding-top: 5%;
     text-align: center;
 }
 
